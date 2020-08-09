@@ -1,11 +1,23 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+/mobile/.expo/*
+/mobile/npm-debug.*
+/mobile/*.jks
+/mobile/*.p8
+/mobile/*.p12
+/mobile/*.key
+/mobile/*.mobileprovision
+/mobile/*.orig.*
+/mobile/web-build/
 
+# macOS
+/mobile/.DS_Store
 # dependencies
 /documents
 
 /server/node_modules
-
+/mobile/node_modules
 /web/node_modules
+
 /web/.pnp
 /web/.pnp.js
 
