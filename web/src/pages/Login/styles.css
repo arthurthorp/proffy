@@ -1,0 +1,38 @@
+#page-login{
+    width: 100vw;
+    height: 100vh;
+
+    color: var(--color-text-in-primary);
+}
+
+.login-header {
+    background-color: var(--color-primary);
+    height: 39.7rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    width: 90%;
+    height: 80%;
+    background-image: url('../../assets/images/login-header.svg');
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header img {
+    width: 25rem;
+}
+
+.content-header h2 {
+    width: 25rem;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+}
