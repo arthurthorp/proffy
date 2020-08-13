@@ -92,3 +92,53 @@
     border-radius: 0px 0px 8px 8px;
     border-top: none;
 }
+
+.footer-main {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-main .remember-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-main .remember-me input{
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    background: #FFF;
+    border: 1px solid var(--color-line-in-white);
+    margin-right: 1rem;
+}
+.footer-main .remember-me label {
+    font-size: 1.2rem;
+    color: var(--color-text-complement);
+}
+.footer-main .remember-me input:checked {
+    border: 2px solid var(--color-secundary);
+    background: var(--color-secundary);
+}
+
+.footer-main .forgot-password {
+    text-decoration: none;
+    color: var(--color-text-complement);
+    font-size: 1.2rem;
+}
+
+.sing-in {
+    margin-top: 2rem;
+    height: 5rem;
+    color: #FFF;
+    text-align: center;
+    background: var(--color-secundary);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    transition: background .2s;
+}
+
+.sing-in:hover {
+    background: var(--color-secundary-dark);
+}

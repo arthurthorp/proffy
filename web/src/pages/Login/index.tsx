@@ -28,7 +28,20 @@ function Login() {
                     <div className="form-main">
                         <input type="email" placeholder="E-mail" className="input-login" required/>
                         <input type="password" placeholder="Senha" className="input-login" required/>
+                        <i className="eye-off-outline"></i>
                     </div>
+
+                    <div className="footer-main">
+                        <div className="remember-me">
+                            <input type="checkbox" id="remember" name="remember-me"/>
+                            <label form="remember">Lembrar-me</label>
+                        </div>
+                        <a className="forgot-password" href="#">Esqueci minha senha</a>
+                    </div>
+
+                    <button className="sing-in" type="submit">
+                        Entrar
+                    </button>
                 </div>
 
             </main>
